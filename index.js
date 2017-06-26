@@ -38,6 +38,7 @@ function Ejercicios(){
 }
 var area_rec=new Ejercicios();
 var edad_p=new Ejercicios();
+var primerPersona= new Ejercicios();
 // Area de un triangulo
 describe("Area_rectangulo",function(){
   it ('debe retornar 30',function(){
@@ -54,6 +55,6 @@ describe("Edad actual de una persona",function(){
 // ejercicio numero 3
 describe('Ejercicio de Objetos, Ejercicio 3', function(){
      it('edad de la persona ', function(){
-       assert.equal("hola soy camilo tengo 22 años y me gusta patinar,bailar", primeraPersona.imprimir());
+       assert.equal("Tengo 22 años ", primeraPersona.imprimir());
      });
    });
