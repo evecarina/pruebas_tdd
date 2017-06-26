@@ -1,0 +1,11 @@
+{
+  "name": "mocha",
+  "version": "0.1.1",
+  "description": "Pruebas unitarias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EVelyn",
+  "license": "ISC"
+}
